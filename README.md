@@ -24,8 +24,11 @@ Data can include source and high-level description (e.g. # obs)
 > Sentence about visualization.
 
 #### Visual 2 Title
-![scatterplot_visualization](scatterplot_visualization_pt1.png)
+
 ![scatterplot visualization](scatterplot_visualization_pt2.png)
+![scatterplot_visualization](scatterplot_visualization_pt1.png)
+
+> Sentence about visualization.
 
 ## Model
 
