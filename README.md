@@ -21,7 +21,8 @@ Seeing if the amount of food items sold can be predicted using various different
 - Create and perform a linear regression model.
 - Create and perform a decision tree model.
 ### Example Visualization of the final pipeline
-![pipeline example](pipeline_example.png)
+
+![pipeline](pipeline_example.png)
 
 ## Results
 
