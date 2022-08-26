@@ -1,20 +1,27 @@
 # food-sales-prediction
-## Subtitle describing the analysis 
+## Using machine learning models to analyze how well food sales can be predicted.
 
 **Kutlukkhan Alikhanov**: 
 
-### The problem:
+### The prompt:
 
 Seeing if the amount of food items sold can be predicted using various different measurements. These include: weight, fat content, visibility, type, MRP, outlet size, outlet location, and outlet type.
 
 
 ### Data:
-Data can include source and high-level description (e.g. # obs)
+[Data Source.](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
 
 
 ## Methods
-- Data preparation steps with explanation and justification for choices
-- 
+- Fixed inconsistencies with categorical data.
+- Dropped extraneous columns.
+- Performed a train test split on the data.
+- Impute missing values using different techniques depending on the type of data. Mean for numerical, most frequent for ordinal, and a constant value for nominal.
+- Manipulate the data using different techniques which are dependent on the type of data. StandardScaler for numerical, OneHotEncoder for nominal, OrdinalEncoder for ordinal.
+- Create and perform a linear regression model.
+- Create and perform a decision tree model.
+### Example Visualization of the final pipeline
+![pipeline example](pipeline example.png)
 
 ## Results
 
