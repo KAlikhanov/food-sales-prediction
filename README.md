@@ -18,15 +18,14 @@ Data can include source and high-level description (e.g. # obs)
 
 ## Results
 
-### Here are examples of how to embed images from your sub-folder
-
-
 #### Visual 1 Title
-![sample image](boxplot_visualization.png)
+![boxplot visualization](boxplot_visualization.png)
 
 > Sentence about visualization.
 
 #### Visual 2 Title
+![scatterplot_visualization](scatterplot_visualization_pt1.png)
+![scatterplot visualization](scatterplot_visualization_pt2.png)
 
 ## Model
 
