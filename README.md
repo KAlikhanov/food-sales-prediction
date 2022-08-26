@@ -22,7 +22,7 @@ Data can include source and high-level description (e.g. # obs)
 
 
 #### Visual 1 Title
-![sample image](project1_sample_image.png)
+![sample image](boxplot_visualization.png)
 
 > Sentence about visualization.
 
