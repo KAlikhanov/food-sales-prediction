@@ -20,6 +20,7 @@ Seeing if the amount of food items sold can be predicted using various different
 - Manipulate the data using different techniques which are dependent on the type of data. StandardScaler for numerical, OneHotEncoder for nominal, OrdinalEncoder for ordinal.
 - Create and perform a linear regression model.
 - Create and perform a decision tree model.
+- Evaluate those models using different metrics.
 ### Visualization of one of the final pipelines
 
 ![pipeline](pipeline_example.PNG)
@@ -42,11 +43,15 @@ Seeing if the amount of food items sold can be predicted using various different
 
 I decided on a decision tree model with a depth of 5. When comparing it's metrics to the linear regression model it won out.
 
-The decision tree model's R2 Score on the testing set: 0.5947 or 59.47%
+The model's R2 Score on the testing set: ~0.5947 or ~59.47%
 
-The decision tree model's RMSE on the testing set: 1057
+The model's RMSE on the testing set: ~1057
 
-This model is not the be all end all for food item sales, but it could be helpful for business owners to be aware of what exactly affects item sales the most. Keeping in mind that RMSE weighs higher errors more heavily the RMSE is still well within 1 standard deviation of the target. While 59% R2 score is not incredibly impressive, it is far from useless.
+The model's MSE on the testing set: ~1118185.97
+
+The model's MAE on the testing set: ~738
+
+This model is not the be all end all for food item sales, but it could be helpful for business owners to be aware of what exactly affects item sales the most. Keeping in mind that RMSE weighs higher errors more heavily the RMSE is still well within 1 standard deviation of the target. While 59% R2 score is not incredibly impressive, it is far from useless. The MAE being ~738 means that on average the predictions are off by 738 items sold (either in the positive or negative). 
 
 ## Recommendations:
 
